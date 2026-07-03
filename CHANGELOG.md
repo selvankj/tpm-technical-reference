@@ -10,6 +10,8 @@ content, add an entry here.
 ## 2026-07-02
 
 **Added**
+- **Hero landing page** (`HOME.md`, site-only): gradient hero, clickable card grids for all archetypes and playbooks, six-lenses summary. CI stages it as the site's `index.md`; `README.md` remains the GitHub-facing page, untouched.
+- **Visual theme** (`stylesheets/extra.css`): gradient palette, TL;DR callout cards with pill badges, styled tables, top nav tabs, emoji nav icons, card hover effects, dark-mode variants. Fixed blockquote bullet rendering across 19 files.
 - **MkDocs Material site** (`mkdocs.yml` + `.github/workflows/docs.yml`) — renders the existing markdown as a searchable, navigable site deployed to GitHub Pages. No content duplication.
 - **Scale notes** on every archetype: full "Scale tiers" tables (small / mid-large / hyperscale) on the AWS and Azure cards, and a tailored scale note on each of the others.
 
