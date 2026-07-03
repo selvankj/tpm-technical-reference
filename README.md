@@ -104,6 +104,7 @@ Apply across every archetype.
 |------|----------|
 | [Cloud service map](reference/cloud-service-map.md) | AWS ↔ Azure ↔ GCP equivalents by category |
 | [Glossary](reference/glossary.md) | Terms a TPM hears and should be able to use |
+| [Data failure scenarios](reference/data-failure-scenarios.md) | 12 silent-failure modes and the gates that prevent them |
 | [Operating model](TPM-OPERATING-MODEL.md) | Phase map, RAID, ADRs, launch-readiness review, escalation |
 
 ---

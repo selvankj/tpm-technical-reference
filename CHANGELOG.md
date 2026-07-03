@@ -7,6 +7,11 @@ The guide uses a simple review convention: each page carries a
 When you review a page and it's still accurate, bump the date. When you change
 content, add an entry here.
 
+## 2026-07-03
+
+**Added**
+- New reference page: **Data pipeline failure scenarios** — 12 silent-failure modes ("green but broken"), the four prevention gates, and a pipeline-change PR checklist.
+
 ## 2026-07-02
 
 **Added**

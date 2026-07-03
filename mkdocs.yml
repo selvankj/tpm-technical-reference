@@ -86,5 +86,6 @@ nav:
   - Reference:
       - 🗺️ Cloud service map: reference/cloud-service-map.md
       - 📖 Glossary: reference/glossary.md
+      - 🚨 Data failure scenarios: reference/data-failure-scenarios.md
   - 🤝 Contributing: CONTRIBUTING.md
   - 📝 Changelog: CHANGELOG.md
