@@ -25,6 +25,9 @@ jobs:
         run: |
           mkdir -p _site_src
           cp -R *.md archetypes cross-cutting reference stylesheets _site_src/
+          mv _site_src/HOME.md _site_src/index.md
+          rm _site_src/README.md
+          find _site_src -name '*.md' -exec sed -i 's#](../README.md#](../index.md#g; s#](README.md#](index.md#g' {} +
 
       - name: Build and deploy to gh-pages
         run: mkdocs gh-deploy --force

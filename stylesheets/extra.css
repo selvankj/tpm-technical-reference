@@ -142,3 +142,87 @@
 .md-typeset a:hover {
   text-decoration-color: var(--ttr-accent);
 }
+
+/* ---- Hero landing ---------------------------------------------------------- */
+.ttr-hero {
+  background-image: linear-gradient(135deg, #4527d8 0%, #5b3df5 45%, #0891b2 100%);
+  border-radius: 1rem;
+  padding: 2.4rem 2.2rem 1.8rem;
+  margin: 0.5rem 0 2rem;
+  color: #fff;
+  box-shadow: 0 8px 30px rgba(69, 39, 216, 0.35);
+}
+
+.ttr-hero h1 {
+  color: #fff !important;
+  background: none !important;
+  font-size: 2.2em;
+  margin-bottom: 0.3em;
+}
+
+.ttr-hero p {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 1.05em;
+  max-width: 42rem;
+}
+
+.ttr-hero .md-button {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.7);
+  margin-right: 0.5rem;
+}
+
+.ttr-hero .md-button--primary {
+  background: #06b6a4;
+  border-color: #06b6a4;
+  color: #06322d;
+  font-weight: 700;
+}
+
+.ttr-hero .md-button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #fff;
+}
+
+.ttr-hero .md-button--primary:hover {
+  background: #2dd4bf;
+  border-color: #2dd4bf;
+}
+
+.ttr-stats {
+  margin-top: 1.2rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.85em;
+  letter-spacing: 0.02em;
+}
+
+.ttr-stats strong {
+  color: #5eead4;
+  font-size: 1.25em;
+}
+
+/* ---- Grid cards: lift on hover -------------------------------------------- */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > :is(ul, ol) > li {
+  border-radius: 0.8rem;
+  border: 1px solid rgba(124, 92, 255, 0.25);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(91, 61, 245, 0.18);
+  border-color: var(--ttr-accent);
+}
+
+.md-typeset .grid.cards > ul > li > hr {
+  background: linear-gradient(90deg, rgba(91, 61, 245, 0.45), rgba(6, 182, 164, 0.45));
+}
+
+.md-typeset .grid.cards .twemoji.lg {
+  color: var(--ttr-primary);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards .twemoji.lg {
+  color: #9d85ff;
+}
