@@ -1,0 +1,87 @@
+site_name: TPM Technical Reference
+site_description: A ready reference for Technical Program Managers — what to look for and what to ask across common project types.
+site_author: Thirumalaiselvan K J
+repo_url: https://github.com/selvankj/tpm-technical-reference
+repo_name: selvankj/tpm-technical-reference
+
+# The markdown lives at the repo root (root README, root LICENSE, GitHub-friendly).
+# MkDocs needs a child docs_dir, so CI stages the content into _site_src before building
+# (see .github/workflows/docs.yml). For local preview, run the same copy first — see README.
+docs_dir: _site_src
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+
+nav:
+  - 🏠 Home: README.md
+  - 🧭 Operating model: TPM-OPERATING-MODEL.md
+  - Archetypes:
+      - ☁️ AWS application: archetypes/aws-application.md
+      - 🌐 Azure application: archetypes/azure-application.md
+      - 🛢️ Data engineering: archetypes/data-engineering.md
+      - ✨ GenAI / LLM: archetypes/genai-llm.md
+      - 🤖 ML model: archetypes/ml-model.md
+      - 🚚 Migration / modernization: archetypes/migration-modernization.md
+      - 🔌 Integration / API: archetypes/integration-api.md
+      - 🌊 Event-driven / streaming: archetypes/event-driven-streaming.md
+      - 📱 Mobile app: archetypes/mobile-app.md
+      - 🏢 SaaS multi-tenant: archetypes/saas-multitenant.md
+      - 🏗️ Infrastructure / platform: archetypes/infrastructure-platform.md
+      - 📦 COTS / vendor implementation: archetypes/cots-vendor-implementation.md
+  - Cross-cutting:
+      - 🔐 Security & compliance: cross-cutting/security-and-compliance.md
+      - 📈 Reliability & observability: cross-cutting/reliability-and-observability.md
+      - 🧪 Testing strategy: cross-cutting/testing-strategy.md
+      - 💰 FinOps & cost: cross-cutting/finops-cost.md
+      - 🔁 CI/CD & environments: cross-cutting/cicd-and-environments.md
+  - Reference:
+      - 🗺️ Cloud service map: reference/cloud-service-map.md
+      - 📖 Glossary: reference/glossary.md
+  - 🤝 Contributing: CONTRIBUTING.md
+  - 📝 Changelog: CHANGELOG.md

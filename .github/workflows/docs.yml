@@ -1,0 +1,30 @@
+name: Deploy docs
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install MkDocs Material
+        run: pip install mkdocs-material
+
+      # The markdown lives at the repo root; stage it into the docs_dir MkDocs expects.
+      - name: Stage content
+        run: |
+          mkdir -p _site_src
+          cp -R *.md archetypes cross-cutting reference stylesheets _site_src/
+
+      - name: Build and deploy to gh-pages
+        run: mkdocs gh-deploy --force

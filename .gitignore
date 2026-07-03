@@ -1,0 +1,9 @@
+# MkDocs build artifacts
+_site_src/
+site/
+.cache/
+
+# OS / editor
+.DS_Store
+*.log
+.vscode/

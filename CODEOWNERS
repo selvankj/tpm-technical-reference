@@ -1,0 +1,17 @@
+# CODEOWNERS
+# Defines who is requested for review when files change.
+# Replace @selvankj with the correct GitHub handle(s), and add per-area owners as the
+# guide grows. On GitHub, enabling "Require review from Code Owners" in branch
+# protection makes this enforceable rather than advisory.
+
+# Default owner for everything in the repo
+*                       @selvankj
+
+# Per-area owners (uncomment and assign as the team grows)
+# /archetypes/          @selvankj
+# /cross-cutting/       @selvankj
+# /reference/           @selvankj
+
+# The cloud service map drifts fastest — worth a dedicated owner and a
+# stricter review, since stale entries here mislead the most.
+# /reference/cloud-service-map.md   @selvankj

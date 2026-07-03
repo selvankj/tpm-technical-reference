@@ -1,0 +1,19 @@
+Copyright (c) 2026 Thirumalaiselvan K J
+
+INTERNAL USE ONLY
+
+This TPM Technical Reference is proprietary material intended for internal use.
+It may be read, used, and contributed to by authorized members of the organization.
+It may not be redistributed, published, or shared outside the organization without
+written permission from the copyright holder.
+
+---
+
+Note: If you intend this guide to be openly shareable instead of internal-only,
+replace the text above with a standard open license. Common choices:
+
+  - MIT License          — permissive, allows reuse with attribution (best for code-like reuse)
+  - CC BY 4.0            — Creative Commons, well-suited to documentation/prose
+  - CC BY-NC 4.0         — same, but non-commercial use only
+
+Pick one, paste its full text here, and update the copyright line.
