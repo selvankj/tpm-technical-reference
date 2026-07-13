@@ -2,7 +2,7 @@
 
 _Last reviewed: 2026-07-03 · Review cadence: quarterly_
 
-Hi — I'm **Thirumalaiselvan K J** (most people call me Selvan), a Senior Technical Program Manager based in Chennai, India, with **17 years in IT delivery**.
+Hi — I'm **Thirumalaiselvan K J** (most people call me Thiru), a Senior Technical Program Manager based in Chennai, India, with **17 years in IT delivery**.
 
 ## Why this site exists
 
@@ -23,7 +23,7 @@ Every page carries a *Last reviewed* date and the guide runs on a quarterly revi
 
 ## Get in touch
 
-- **LinkedIn:** [linkedin.com/in/thirumalaiselvan](https://www.linkedin.com/in/thirumalaiselvan) <!-- update to your exact profile URL -->
+- **LinkedIn:** [linkedin.com/in/thirumalaiselvan-kj-4255b714](https://www.linkedin.com/in/thirumalaiselvan-kj-4255b714/)
 - **GitHub:** [github.com/selvankj](https://github.com/selvankj)
 - Found a gap or disagree with a default? Open an issue on the [repo](https://github.com/selvankj/tpm-technical-reference) — the [contributing guide](CONTRIBUTING.md) has the house style.
 
