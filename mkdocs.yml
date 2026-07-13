@@ -11,6 +11,8 @@ docs_dir: _site_src
 
 theme:
   name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
   icon:
     repo: fontawesome/brands/github
   features:
@@ -87,5 +89,11 @@ nav:
       - 🗺️ Cloud service map: reference/cloud-service-map.md
       - 📖 Glossary: reference/glossary.md
       - 🚨 Data failure scenarios: reference/data-failure-scenarios.md
+  - Templates:
+      - 📋 RAID log: templates/raid-log.md
+      - ✅ Launch readiness: templates/launch-readiness-checklist.md
+      - 🗓️ Cut-over runbook: templates/cutover-runbook.md
+      - 🔍 Pipeline-change PR checklist: templates/pipeline-change-pr-checklist.md
+  - 👤 About: about.md
   - 🤝 Contributing: CONTRIBUTING.md
   - 📝 Changelog: CHANGELOG.md
