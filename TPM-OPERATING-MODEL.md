@@ -44,10 +44,12 @@ Short documents that capture *one significant decision*: the context, the option
 
 Why a TPM cares:
 - They make trade-offs reviewable instead of buried in someone's head.
-- They're your defense when a decision is questioned six months later.
+- They're your defense when a decision is questioned six months later — and they stop the same debate being re-run from scratch.
 - A team that can't articulate *why not the alternative* hasn't finished thinking.
 
-Ask for an ADR whenever a choice is expensive to reverse: datastore, cloud, auth model, sync vs. async, build vs. buy, tenancy model.
+Ask for an ADR whenever a choice is expensive to reverse: datastore, cloud, auth model, sync vs. async, event-driven vs. request/response, service boundaries, build vs. buy, tenancy model.
+
+> **Rule of thumb:** if reversing the decision would cost significant engineering effort, a data migration, customer impact, or organizational change — it deserves an ADR. The point isn't paperwork; it's preserving *why*, so the next team inherits reasoning instead of ruins.
 
 ---
 

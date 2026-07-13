@@ -10,6 +10,9 @@ content, add an entry here.
 ## 2026-07-03
 
 **Added**
+- ADR section: reversal-cost rule of thumb and two more ADR-worthy decision examples (service boundaries, event-driven vs. request/response).
+- **About page**, **Templates section** (RAID log, launch-readiness, cut-over runbook, pipeline-change PR checklist), and the **"From the field"** convention for real anonymized experience callouts — first one on the data failure scenarios page.
+- Positioning tagline on homepage and README (curated personal reference, not an official standard); license changed from internal-only to **CC BY 4.0** for public sharing.
 - New reference page: **Data pipeline failure scenarios** — 12 silent-failure modes ("green but broken"), the four prevention gates, and a pipeline-change PR checklist.
 
 ## 2026-07-02
